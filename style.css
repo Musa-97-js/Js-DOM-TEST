@@ -40,19 +40,19 @@ a:hover {
   border-radius: 15px;
   color: #ffffff;
 }
-#jsDom .chat .message .start {
-  display: flex;
-  justify-content: flex-end;
-}
 #jsDom .chat .message .end {
   display: flex;
   justify-content: flex-end;
+}
+#jsDom .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #jsDom .chat .text input {
   width: 180px;
   height: 27px;
   border-radius: 15px;
-  border: 1px solid #000000;
 }
 #jsDom .chat .text .sent h3 {
   cursor: pointer;
@@ -67,4 +67,38 @@ a:hover {
 #jsDom .chat .text .sent h3:hover {
   background-color: #6a84e4;
   transition: 0.2s;
+}
+@media screen and (max-width: 992px) {
+  #jsDom .chat {
+    height: 270px;
+  }
+  #jsDom .chat .message {
+    width: auto;
+    height: 180px;
+  }
+  #jsDom .chat .text input {
+    width: auto;
+    height: 28px;
+  }
+  #jsDom .chat .text .sent h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #jsDom .chat {
+    margin: 30px 0;
+    width: 400px;
+    height: 230px;
+  }
+  #jsDom .chat .message {
+    width: auto;
+    height: 140px;
+  }
+  #jsDom .chat .text input {
+    width: auto;
+    height: 24px;
+  }
+  #jsDom .chat .text .sent h3 {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */

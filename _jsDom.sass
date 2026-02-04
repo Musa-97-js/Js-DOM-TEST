@@ -23,18 +23,17 @@
                     background-color: #7991e7
                     border-radius: 15px
                     color: #ffffff
-            .start
-                display: flex
-                justify-content: flex-end
             .end
                 display: flex
                 justify-content: flex-end
         .text
+            display: flex
+            justify-content: center
+            align-items: center
             input
                 width: 180px
                 height: 27px
                 border-radius: 15px
-                border: 1px solid #000000
             .sent
                 h3
                     cursor: pointer
@@ -48,3 +47,32 @@
                     &:hover
                         background-color: #6a84e4
                         transition: 0.2s
+    @media screen and ( max-width: 992px )
+        .chat
+            height: 270px
+            .message
+                width: auto
+                height: 180px
+            .text
+                input
+                    width: auto
+                    height: 28px
+                .sent
+                    h3
+                        font-size: 14px
+
+    @media screen and ( max-width: 767px )
+        .chat
+            margin: 30px 0
+            width: 400px
+            height: 230px
+            .message
+                width: auto
+                height: 140px
+            .text
+                input
+                    width: auto
+                    height: 24px
+                .sent
+                    h3
+                        font-size: 12px
