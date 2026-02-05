@@ -10,19 +10,16 @@ a:hover {
   color: black;
 }
 
-#jsDom {
-  padding: 90px 0;
-}
 #jsDom .chat {
-  width: 500px;
+  margin-top: 120px;
+  width: 100%;
   height: 330px;
   border-radius: 30px;
   background-color: #e8edff;
-  padding: 10px 0 0 0;
 }
 #jsDom .chat .message {
   overflow: hidden;
-  width: 460px;
+  width: auto;
   margin: 20px;
   height: 230px;
   background-color: #ffffff;
@@ -68,19 +65,40 @@ a:hover {
   background-color: #6a84e4;
   transition: 0.2s;
 }
-@media screen and (max-width: 592px) {
+@media screen and (max-width: 766px) {
   #jsDom .chat {
-    margin: 0 0 30px 0;
-    width: 340px;
-    height: 280px;
-    border-radius: 15px;
+    margin-top: 10px;
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
   }
   #jsDom .chat .message {
-    width: 300px;
-    height: 180px;
+    width: auto;
+    height: 130px;
   }
   #jsDom .chat .text input {
-    width: 165;
+    width: 165px;
+    height: 32px;
+  }
+  #jsDom .chat .text .sent h3 {
+    font-size: 12px;
+    padding: 10px 22px;
+  }
+}
+@media screen and (max-width: 572px) {
+  #jsDom .chat {
+    margin: 0;
+    margin-top: 10px;
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+  }
+  #jsDom .chat .message {
+    width: auto;
+    height: 130px;
+  }
+  #jsDom .chat .text input {
+    width: 165px;
     height: 32px;
   }
   #jsDom .chat .text .sent h3 {
