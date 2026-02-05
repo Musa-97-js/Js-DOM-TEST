@@ -15,8 +15,8 @@ a:hover {
 }
 #jsDom .chat {
   width: 500px;
-  height: 340px;
-  border-radius: 20px;
+  height: 330px;
+  border-radius: 30px;
   background-color: #e8edff;
   padding: 10px 0 0 0;
 }
@@ -50,16 +50,16 @@ a:hover {
   align-items: center;
 }
 #jsDom .chat .text input {
-  width: 180px;
-  height: 27px;
+  width: 165px;
+  height: 32px;
   border-radius: 15px;
 }
 #jsDom .chat .text .sent h3 {
   cursor: pointer;
   font-size: 14px;
   margin: 0 0 0 10px;
-  padding: 7px 18px;
-  background-color: #7991e7;
+  padding: 9px 22px;
+  background-color: rgba(121, 145, 231, 0.8823529412);
   border-radius: 18px;
   color: #ffffff;
   transition: 0.2s;
@@ -68,37 +68,23 @@ a:hover {
   background-color: #6a84e4;
   transition: 0.2s;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 592px) {
   #jsDom .chat {
-    height: 270px;
+    margin: 0 0 30px 0;
+    width: 340px;
+    height: 280px;
+    border-radius: 15px;
   }
   #jsDom .chat .message {
-    width: auto;
+    width: 300px;
     height: 180px;
   }
   #jsDom .chat .text input {
-    width: auto;
-    height: 28px;
-  }
-  #jsDom .chat .text .sent h3 {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #jsDom .chat {
-    margin: 30px 0;
-    width: 400px;
-    height: 230px;
-  }
-  #jsDom .chat .message {
-    width: auto;
-    height: 140px;
-  }
-  #jsDom .chat .text input {
-    width: auto;
-    height: 24px;
+    width: 165;
+    height: 32px;
   }
   #jsDom .chat .text .sent h3 {
     font-size: 12px;
+    padding: 10px 22px;
   }
 }/*# sourceMappingURL=style.css.map */

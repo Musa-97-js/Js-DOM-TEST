@@ -2,8 +2,8 @@
     padding: 90px 0
     .chat
         width: 500px
-        height: 340px
-        border-radius: 20px
+        height: 330px
+        border-radius: 30px
         background-color: #e8edff
         padding: 10px 0 0 0
         .message
@@ -31,48 +31,36 @@
             justify-content: center
             align-items: center
             input
-                width: 180px
-                height: 27px
+                width: 165px
+                height: 32px
                 border-radius: 15px
             .sent
                 h3
                     cursor: pointer
                     font-size: 14px
                     margin: 0 0 0 10px
-                    padding: 7px 18px
-                    background-color: #7991e7
+                    padding: 9px 22px
+                    background-color: #7991e7e1
                     border-radius: 18px
                     color: #ffffff
                     transition: 0.2s
                     &:hover
                         background-color: #6a84e4
                         transition: 0.2s
-    @media screen and ( max-width: 992px )
+    @media screen and ( max-width: 592px )
         .chat
-            height: 270px
+            margin: 0 0 30px 0
+            width: 340px
+            height: 280px
+            border-radius: 15px
             .message
-                width: auto
+                width: 300px
                 height: 180px
             .text
                 input
-                    width: auto
-                    height: 28px
-                .sent
-                    h3
-                        font-size: 14px
-
-    @media screen and ( max-width: 767px )
-        .chat
-            margin: 30px 0
-            width: 400px
-            height: 230px
-            .message
-                width: auto
-                height: 140px
-            .text
-                input
-                    width: auto
-                    height: 24px
+                    width: 165
+                    height: 32px
                 .sent
                     h3
                         font-size: 12px
+                        padding: 10px 22px
