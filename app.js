@@ -10,15 +10,15 @@ $(document).ready(function () {
             if (!$.trim($("#inputme").val()) == '') {
                 let vall = $("#inputme").val()
                     , newH3 = $('<h3> </h3>')
-                    , newDiv = $('<div class="line" > </div>')
-                    , bigDiv = $(`<div ${myclass} > </div>`)
+                    , newDiv = $('<div class="line"> </div>')
+                    , bigDiv = $(`<div ${myclass}> </div>`)
                 $(newH3).append(vall)
                 $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
                 return bigDiv
             }
             else {
-                return
+                return null;
             }
         }
         $("#messageyou").append(myel())

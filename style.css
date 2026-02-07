@@ -18,7 +18,8 @@ a:hover {
   background-color: #e8edff;
 }
 #jsDom .chat .message {
-  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
   width: auto;
   margin: 20px;
   height: 230px;
@@ -47,14 +48,14 @@ a:hover {
   align-items: center;
 }
 #jsDom .chat .text input {
-  width: 165px;
-  height: 32px;
   border-radius: 15px;
+}
+#jsDom .chat .text .sent {
+  margin-left: 10px;
 }
 #jsDom .chat .text .sent h3 {
   cursor: pointer;
   font-size: 14px;
-  margin: 0 0 0 10px;
   padding: 9px 22px;
   background-color: rgba(121, 145, 231, 0.8823529412);
   border-radius: 18px;
