@@ -18,7 +18,7 @@ $(document).ready(function () {
                 return bigDiv
             }
             else {
-                return null;
+                return
             }
         }
         $("#messageyou").append(myel())
@@ -28,7 +28,7 @@ $(document).ready(function () {
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 
-     $("#you").click(function (e) {
+    $("#you").click(function (e) {
         e.preventDefault();
         function myel(myclass = "") {
             if (!$.trim($("#inputyou").val()) == '') {

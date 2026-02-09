@@ -12,7 +12,7 @@ a:hover {
 
 #jsDom .chat {
   margin-top: 100px;
-  width: 85%;
+  width: 90%;
   height: 330px;
   border-radius: 15px;
   background-color: #e8edff;
@@ -24,7 +24,7 @@ a:hover {
   margin: 20px;
   height: 230px;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 #jsDom .chat .message .line {
   margin: 7px 8px 0 8px;
